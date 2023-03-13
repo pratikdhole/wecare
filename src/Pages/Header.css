@@ -1,0 +1,80 @@
+
+
+nav {
+    background-color: #fff;
+    width: 100%;
+    border-radius: 0px !important;
+    display: flex;
+    flex-direction: row;
+}
+
+nav .navbar-nav {
+    margin-top: 1px;
+
+}
+
+nav .navbar-nav a {
+    color: var(--main-color);
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-left: 70px;
+    font-size: 20px;
+
+
+}
+
+nav .navbar-nav a:hover,
+nav .navbar-nav a:focus {
+    color: var(--orange-color) !important;
+}
+
+nav .navbar-nav button {
+    background-color: var(--btn-color);
+    border: 1px solid var(--btn-color);
+    width: 100px;
+    height: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: -10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s ease-in-out;
+}
+
+nav .navbar-nav button span {
+    background-color: #fff;
+    color: var(--btn-color);
+    width: 40px;
+    border-radius: 4px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-left: 15px;
+
+}
+
+
+nav .navbar-nav button:hover {
+    background-color: rgb(52, 53, 175);
+    border: 1px solid rgb(52, 53, 175);
+
+}
+
+
+.navbar-nav .dropdown-menu a:hover {
+
+    color: var(--btn-color) !important;
+}
+
+[type=button]:not(:disabled),
+[type=reset]:not(:disabled),
+[type=submit]:not(:disabled),
+button:not(:disabled) {
+    cursor: pointer;
+    background-color: var(--btn-color);
+    border: 1px solid var(--btn-color);
+    border-radius: 0px;
+}

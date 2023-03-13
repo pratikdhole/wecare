@@ -1,0 +1,33 @@
+.video-background-holder {
+    position: absolute;
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.video-background-holder video {
+    position: absolute;
+    z-index: 1;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.video-background-content {
+    position: relative;
+    z-index: 1;
+}
+
+.video-background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: auto;
+    background-color: black;
+    opacity: 0.2;
+    z-index: 1;
+}
